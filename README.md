@@ -96,4 +96,9 @@ The model struggles to distinguish between neighbouring reorder windows, as cust
 Ultimately, this project displayed my ability to build an end-to-end machine learning pipeline from raw data, carefully engineering features using SQL queries and python and preventing data leakage to predict a genuine business question. The project demonstrates practical experience in SQL feature engineering, machine learning, model evaluation, and deploying a predictive model through a simple web application. It shows iterative experimentation that results in a 55.75% accuracy - substantially better than the 25% baseline expected from random classification.
 
 
+## Reproducability
+
+Due to the size of the dataset, it has not been included here. If you wish to reproduce the data, the raw data is included in the kaggle link, and the processed data can be obtained from the SQL Query marked in the SQL file.
+
+
 
