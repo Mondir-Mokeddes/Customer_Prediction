@@ -75,10 +75,10 @@ I used RandomizedSearchCV to tune the hyperparameters to maximise macro F1. I tu
 ## Results
 
 The final XGBoost classification model achieved an accuracy of **55.75%** and a macro F1-score of **0.44** on the held-out test set. This represents a significant improvement over random guessing. The model performed best when predicting longer reorder intervals, while most errors occurred between adjacent time windows, particularly between the 8–14 day and 15+ day classes. This suggests that the model successfully captured general customer purchasing patterns.
-![Confusion Matrix](figures/confusion_matrix_graph.png)
+![Confusion Matrix](Figures/confusion_matrix_graph.png)
 
 Feature importance analysis showed that historical ordering behaviour was the strongest predictor of future return time. The most influential features included the number of days since the previous order, minimum historical interval, average ordering interval, and recent ordering behaviour. This highlights that customer purchase frequency and consistency were more predictive than product category information, which contributed relatively little to model performance.
-![Feature Importance](figures/feature_importance_graph.png)
+![Feature Importance](Figures/feature_importance_graph.png)
 
 
 
