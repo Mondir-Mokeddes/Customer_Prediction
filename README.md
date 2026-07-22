@@ -9,7 +9,7 @@ I first used SQL to do some exploratory data analysis, and decided on the primar
 ## Dataset
 
 The dataset is the Instacart Market Basket Analysis dataset which can be found on kaggle [here](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis). I combined the included tables with additional tables I generated in python during exploratory analysis. The dataset has ~200000 users and 3 million orders, and contains information on what each order was, what products were bought, what aisle and department the products were from, what user did that order and how long it had been since that user last made an order.
-![Correlation Heatmap](figures/correlation_heatmap.png)
+![Correlation Heatmap](Figures/correlation_heatmap.png)
 
 
 ## Tools used
