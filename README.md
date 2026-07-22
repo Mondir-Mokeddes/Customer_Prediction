@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this project was to predcit when a user is most likely to purchase from a store again. This project is of business importance as it enables business to estimate when customers are likely to mke their next order, supporting targetted marketing campaigns and inventory planning. The final output of the project is a web app that can make a prediction on when a user is most likely to return when given some information. 
+The purpose of this project was to predict when a user is most likely to purchase from a store again. This project is of business importance as it enables business to estimate when customers are likely to mke their next order, supporting targetted marketing campaigns and inventory planning. The final output of the project is a web app that can make a prediction on when a user is most likely to return when given some information. 
 
 I first used SQL to do some exploratory data analysis, and decided on the primary question. I then exported the data to python to train an XGBoost model. I jumped between SQL and python frequently, using SQL to change my features for the model, and python to train the model. 
 
